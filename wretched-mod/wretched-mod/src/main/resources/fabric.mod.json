@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "wretched",
+  "version": "${version}",
+  "name": "Wretched",
+  "description": "Adds the Wretched: a segmented, wall-climbing, red-eyed centipede that lurks in the dark.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.wretched.WretchedMod"],
+    "client": ["com.example.wretched.client.WretchedModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
